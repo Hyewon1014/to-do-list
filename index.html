@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chiikawa To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nanum+Pen+Script&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="notebook">
+    <div class="cover"></div>
+    <div class="page">
+      <header>
+        <div class="header-content">
+          <img src="chiikawa.png" alt="Chiikawa" class="chiikawa-img">
+          <h1>My To-Do List</h1>
+        </div>
+        <div class="date-picker">
+          <label for="date">📅 Select Date: </label>
+          <input type="date" id="date-picker">
+        </div>
+      </header>
+      <main>
+        <ul id="todo-list">
+          <!-- 할 일 목록 -->
+        </ul>
+        <button id="add-task-btn">➕ Add Task</button>
+      </main>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
